@@ -33,7 +33,7 @@ def main():
     requirements = get_user_request()
 
     alphabet_upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    alphabet_lower = "abcdefghijklmnopqrstuvwxyz"
+    alphabet_lower = alphabet_upper.lower()
     numbers = "0123456789"
     symbols = "`~!@#$%^&*()-_=+[{]};:,<.>/?"
     pool = ''
